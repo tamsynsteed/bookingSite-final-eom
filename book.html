@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./assets/styles/book.css" />
+    <link rel="stylesheet" href="./assets/styles/carousel.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Booking|MountainLux</title>
+  </head>
+  <body>
+    <header>
+      <h2>Mountain.Lux</h2>
+    </header>
+
+    <div class="container">
+      <div class="div1">
+        <h2>Make Booking</h2>
+
+        <div class="inputs">
+          <i class="fa fa-home"></i>
+          <p>
+            Resort:
+            <select id="select1">
+              <option value="1">Resort 1</option>
+              <option value="1">Resort 2</option>
+              <option value="1">Resort 2</option>
+            </select>
+          </p>
+        </div>
+
+        <div class="inputs">
+          <p>
+            <i class="fa fa-calendar"></i>
+            Check-in:
+            <input type="date" id="myDate" value="2014-02-09" />
+          </p>
+        </div>
+
+        <div class="inputs">
+          <p>
+            <i class="fa fa-calendar"></i>
+            Check-out:
+            <input type="date" id="myDate" value="2014-02-09" />
+          </p>
+        </div>
+
+        <div class="inputs">
+          <p>
+            <i class="fa fa-user"></i>
+            No. of guests:
+            <input type="number" id="guests" value="guests" />
+          </p>
+        </div>
+
+        <div class="inputs">
+          <p>
+            <i class="fa fa-bed"></i>
+            No. of rooms:
+            <input type="number" id="rooms" value="rooms" />
+          </p>
+        </div>
+
+        <button id="booking" type="submit" name="makebook">Make Booking</button>
+      </div>
+
+      <div class="div2"></div>
+    </div>
+
+    <footer>
+      <h2>copyright © TAMSYN STEED 2021</h2>
+    </footer>
+  </body>
+</html>
