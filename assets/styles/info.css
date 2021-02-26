@@ -32,6 +32,8 @@ h2 header {
 }
 h2 {
   color: black;
+  font-family: "Koho", sans-serif;
+  margin-bottom: 2em;
 }
 
 footer {
@@ -56,128 +58,73 @@ p {
   font-size: medium;
 }
 
-.container {
-  position: relative;
-  max-width: 100em;
-  margin: 0 auto;
-  padding: 4em 0;
-  display: block;
-  z-index: 2;
-  min-height: 80vh;
-  margin: auto;
-  
-  
-  justify-content: space-evenly;
-  border: solid;
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
 }
 
-.container > div {
-  
+.icon {
+  padding: 10px;
+  background: whitesmoke;
+  color: grey;
+  min-width: 200px;
+  text-align: left;
+  font-size: larger;
 }
 
-.div1 {
-  height: 80vh;
-  padding-top: 50px;
-  max-width: 60em;
 
+.fa,
+.far,
+.fas {
+  font-weight: 900;
+  color: black;
+  margin-right: 0.5em;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-family: "Font Awesome 5 Free";
+}
+
+
+label {
   width: 60%;
-  margin: auto;
+  padding: 10px;
+  outline: none;
+  
+
+  border-radius: 50px;
+  margin-left:10px;
+  background-color: orangered;
+  opacity: 1;
 }
 
-.div2 {
-  padding: 60px;
-  height: 80vh;
-  max-width: 50em;
+form{
+  border:solid;
+  border-width: thin;
+  padding:30px;
+}
+/* Set a style for the submit button */
+.btn {
+  background: orangered;
+  border-radius: 2em;
 
-
-  width: 60%;
-  padding-bottom: 20px;
+  color:white;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+  margin-top: 5em;
+  
 }
 
-
-
-.inputs {
-    border-bottom: solid;
-    border: solid;
-    border-width: thin;
-    border-color: #2d2d2d;
-    width: 480px;
-    height: 40px;
-  
-    margin: 10px auto;
-    text-align: center;
-    display: flex;
-    padding-left: 10px;
-   
-    bottom: 0;
-  
-    display: flex;
-  
-    align-items: center;
-    margin: 0 auto 2em auto;
-    max-width: 30em;
-  
-    transition: all 200ms ease-out;
-  
-    margin-left: 20px;
-    
-  }
-
-  .heading{
-      border-bottom: solid;
-      border-width: thin;
-      border-color: #2d2d2d;
-      
-     
-      padding:10px;
-      max-width: 20em;
-      margin: auto;
-  }
-  
-  .fa,
-  .far,
-  .fas {
-    font-weight: 900;
-    color: black;
-    margin-right: 0.5em;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
-    font-family: "Font Awesome 5 Free";
-  }
-  
-  .fa-lock::before {
-    content: "\f023";
-  }
-  
-  button {
-    font-size: 1em;
-    background: orangered;
-    border-radius: 2em;
-    padding: 0.5em 2em;
-    border: none;
-    color: #fff;
-  
-    margin-top: 2em;
-    cursor: pointer;
-  }
-  
-  button a:hover {
-    background-color: #2d2d2d;
-  }
-
-  .data{
- 
-    background: orangered;
-    border-radius: 2em;
-    padding: 0.5em 2em;
-    margin-left: 80px;
-    min-height:2em;
-    min-width: 14em;
-   
-
-  
-  }
-
+.btn:hover {
+  opacity: 1;
+}
