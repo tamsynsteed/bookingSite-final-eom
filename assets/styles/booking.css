@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=KoHo:wght@300&display=swap");
 * {
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 body {
@@ -8,7 +9,6 @@ body {
   text-align: center;
   font-size: 14px;
   color: #2d2d2d;
-  overflow-x: hidden;
 }
 header {
   font-size: 0.8em;
@@ -25,6 +25,11 @@ header h2 {
   margin: 0.5em 0;
   display: flex;
   justify-content: flex-start;
+}
+
+.sign{
+  display: flex;
+  justify-content: flex-end;
 }
 
 h2 header {
@@ -74,20 +79,23 @@ p {
 }
 
 .div1 {
-  height: 80vh;
+  height: 70vh;
   padding-top: 50px;
   max-width: 40em;
 
   width: 40%;
+
+  background-color: whitesmoke;
 }
 
 .div2 {
   padding: 60px;
-  height: 80vh;
+  height: 70vh;
   max-width: 50em;
-
+ 
   width: 60%;
   padding-bottom: 20px;
+  background-color: whitesmoke;
 }
 
 .inputs {

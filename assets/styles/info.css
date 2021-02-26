@@ -93,22 +93,26 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 
 
-label {
+.label {
   width: 60%;
   padding: 10px;
   outline: none;
-  
-
   border-radius: 50px;
   margin-left:10px;
   background-color: orangered;
   opacity: 1;
+  color:white;
+}
+
+.sign{
+  display: flex;
+  justify-content: flex-end;
 }
 
 form{
-  border:solid;
-  border-width: thin;
+ 
   padding:30px;
+  background-color: whitesmoke;
 }
 /* Set a style for the submit button */
 .btn {

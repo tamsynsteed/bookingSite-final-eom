@@ -43,11 +43,13 @@ main {
 }
 
 .logbox {
-  padding: 1em 2em;
+  padding: 2em 4em;
   max-width: 25em;
   width: 100%;
   text-align: center;
   margin: 0 auto;
+
+  background-color: whitesmoke;
 }
 
 .logbox h2 {
