@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=KoHo:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Koho", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  color: #2d2d2d;
+}
+header {
+  font-size: 0.8em;
+  display: flex;
+  max-width: 0 auto;
+  width: 100%;
+  align-items: center;
+  color: white;
+  padding: 0.4em 3em;
+}
+
+header h2 {
+  width: 100%;
+  margin: 0.5em 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+h2 header {
+  color: white;
+}
+h2 {
+  color: black;
+}
+
+main {
+  position: relative;
+  max-width: 80em;
+  margin: 0 auto;
+  padding: 4em 0;
+  display: block;
+}
+
+button {
+  font-size: 1em;
+  background: orangered;
+  border-radius: 2em;
+  padding: 0.2em 2em;
+  border: none;
+  color: #fff;
+  font-size: smaller;
+  margin-top: 2em;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+button:hover {
+  background-color: peru;
+}
+
+footer {
+  margin-top: 3em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #4a4d4a;
+  font-size: 0.6em;
+  padding: 0.4em;
+  color: aliceblue;
+}
+
+footer h2 {
+  color: #fff;
+  max-width: 1024px;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+p {
+  font-size: medium;
+}
+
+.text1 {
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text1 p {
+  font-family: "Roboto", sans-serif;
+  text-transform: none;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 1000;
+}
+
+.text1 h2 {
+  color: #fff;
+}
+
+.container {
+  position: relative;
+}
+
+.container img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/pexels-pixabay-276385.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.about {
+  grid-area: left;
+}
+.times {
+  grid-area: top;
+}
+.contact {
+  grid-area: bottom;
+}
+
+.about_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "left top"
+    "left bottom";
+  grid-gap: 10px;
+
+  padding: 10px;
+
+  height: 30em;
+  width: 50em;
+  margin: auto;
+  position: absolute;
+  z-index: 6;
+  left: 33%;
+  margin-left: -40px;
+  top: 50%;
+  margin-top: -50px;
+  background-color: whitesmoke;
+}
+
+.about-container > div {
+  border: solid;
+}
+
+.times {
+  background-color: yellow;
+  border: solid;
+}
+
+.about {
+  border: solid;
+}
+
+.contact {
+  border: solid;
+}
