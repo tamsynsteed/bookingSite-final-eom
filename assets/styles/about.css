@@ -141,19 +141,17 @@ p {
   margin: auto;
   position: absolute;
   z-index: 6;
-  left: 33%;
-  margin-left: -40px;
+  left:27%;
+  margin-left: -27px;
   top: 50%;
   margin-top: -50px;
   background-color: whitesmoke;
 }
 
-.about-container > div {
-  border: solid;
-}
+
 
 .times {
-  background-color: yellow;
+ 
   border: solid;
 }
 
@@ -164,3 +162,21 @@ p {
 .contact {
   border: solid;
 }
+
+@media (max-width: 1020px) {
+    .about_container{margin:auto;
+    left:0%;
+right:0%;
+max-width: 100%;
+}
+  }
+
+  @media (max-width: 768px) {
+    .about_container{margin:auto;
+    left:0%;
+right:0%;
+max-width: 100%;
+margin-bottom: 180px;
+}
+  }
+
