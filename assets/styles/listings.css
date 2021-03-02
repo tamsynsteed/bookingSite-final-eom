@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=KoHo:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Koho", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  color: #2d2d2d;
+}
+header {
+  font-size: 0.8em;
+  display: flex;
+  max-width: 0 auto;
+  width: 100%;
+  align-items: center;
+  color: white;
+  padding: 0.4em 3em;
+}
+
+header h2 {
+  width: 100%;
+  margin: 0.5em 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+h2 header {
+  color: white;
+}
+h2 {
+  color: black;
+}
+
+p {
+  font-size: medium;
+}
+
+.text1 {
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text1 p {
+  font-family: "Roboto", sans-serif;
+  text-transform: none;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 1000;
+}
+
+.text1 h2 {
+  color: #fff;
+}
+
+.container {
+  position: relative;
+}
+
+.container img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/listings.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+button {
+  font-size: 1em;
+  background: orangered;
+  border-radius: 2em;
+  padding: 0.2em 2em;
+  border: none;
+  color: #fff;
+  font-size: smaller;
+  margin-top: 2em;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+footer {
+  margin-top: 3em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #4a4d4a;
+  font-size: 0.6em;
+  padding: 0.4em;
+  color: aliceblue;
+}
+
+footer h2 {
+  color: #fff;
+  max-width: 1024px;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+/*cards*/
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+a.box {
+  color: #fff;
+  background-color: #2f9b9b;
+  display: block;
+  width: 24em;
+  height: 27em;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  font-family: "monsterrat", sans-serif;
+}
+
+
+.box h2 {
+  text-transform: uppercase;
+}
+
+.content {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  padding: 0 4em;
+  z-index: 2;
+  height: 3em;
+  transition: all 0.2s ease;
+}
+
+a:hover .content {
+  height: 8em;
+  transition: all 0.2s ease;
+}
+
+.box p {
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  margin: 5px;
+  line-height: 1.5em;
+}
+
+a:hover p {
+  height: 3em;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.2s ease;
+}
+
+.link {
+  height: 1.5em;
+  line-height: 1.5;
+  transition: all 0.2s ease;
+  display: block;
+  font-size: 0.85em;
+  font-style: italic;
+}
+
+a:hover .link {
+  transition: all 0.2s ease;
+}
+
+main {
+  margin: auto;
+}
+
+.card_box {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 10em;
+}
+
+.card {
+  border: solid;
+  margin: 20px;
+}

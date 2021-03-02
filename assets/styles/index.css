@@ -34,6 +34,25 @@ h2 {
   color: black;
 }
 
+.sign {
+  display: flex;
+  justify-content: flex-end;
+  width: 5%;
+  text-align: center;
+  flex-direction: row;
+  border-radius: 2em;
+}
+
+.sign a {
+  text-decoration: none;
+  color: black;
+}
+
+.sign:hover {
+  opacity: 0.6;
+ 
+  
+}
 main {
   position: relative;
   max-width: 80em;
@@ -102,6 +121,7 @@ main {
 button {
   font-size: 1em;
   background: orangered;
+  opacity: 0.9;
   border-radius: 2em;
   padding: 0.5em 2em;
   border: none;
@@ -111,8 +131,8 @@ button {
   cursor: pointer;
 }
 
-#login:hover {
-  background-color: orangered;
+button:hover {
+  opacity: 1;
 }
 
 footer {
